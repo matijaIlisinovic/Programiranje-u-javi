@@ -1,0 +1,16 @@
+1
+Grad_Zagreb
+802762
+29673
+2
+Splitsko-dalmatinska
+449610
+17254
+3
+Primorsko-goranska
+286677
+8015
+4
+ličko-senjska
+40000
+300

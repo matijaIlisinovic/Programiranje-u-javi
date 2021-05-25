@@ -1,0 +1,9 @@
+1
+prehlada
+2
+2
+laringitis
+1,3
+3
+feelingitis
+4,2

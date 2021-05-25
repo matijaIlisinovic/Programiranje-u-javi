@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="17.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.sample.IzbornikController">
+    <children>
+        <MenuBar prefHeight="28.0" prefWidth="600.0">
+            <menus>
+                <Menu fx:id="zupMenu" mnemonicParsing="false" text="Županija">
+                    <items>
+                        <MenuItem fx:id="zupPretraga" mnemonicParsing="false" onAction="#prikaziEkranZaPretraguZupanija" text="Pretraga" />
+                  <MenuItem fx:id="zupUpis" mnemonicParsing="false" onAction="#prikaziEkranZaUpisZupanija" text="Novi zapis" />
+                    </items>
+                </Menu>
+                <Menu fx:id="simMenu" mnemonicParsing="false" text="Simptom">
+                    <items>
+                        <MenuItem fx:id="simPretraga" mnemonicParsing="false" onAction="#prikaziEkranZaPretraguSimptoma" text="Pretraga" />
+                  <MenuItem fx:id="simUpis" mnemonicParsing="false" onAction="#prikaziEkranZaUpisSimptoma" text="Novi zapis" />
+                    </items>
+                </Menu>
+                <Menu fx:id="bolMenu" mnemonicParsing="false" text="Bolest">
+                    <items>
+                        <MenuItem fx:id="bolPretraga" mnemonicParsing="false" onAction="#prikaziEkranZaPretraguBolesti" text="Pretraga" />
+                  <MenuItem fx:id="bolUpis" mnemonicParsing="false" onAction="#prikaziEkranZaUpisBolesti" text="Novi zapis" />
+                    </items>
+                </Menu>
+                <Menu fx:id="virMenu" mnemonicParsing="false" text="Virus">
+                    <items>
+                        <MenuItem fx:id="virPretraga" mnemonicParsing="false" onAction="#prikaziEkranZaPretraguVirusa" text="Pretraga" />
+                  <MenuItem fx:id="virUpis" mnemonicParsing="false" onAction="#prikaziEkranZaUpisVirusa" text="Novi zapis" />
+                    </items>
+                </Menu>
+                <Menu fx:id="osobaMenu" mnemonicParsing="false" text="Osoba">
+                    <items>
+                        <MenuItem fx:id="osobaPretraga" mnemonicParsing="false" onAction="#prikaziEkranZaPretraguOsoba" text="Pretraga" />
+                  <MenuItem fx:id="osobaUpis" mnemonicParsing="false" onAction="#prikaziEkranZaUpisOsoba" text="Novi zapis" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+
+</AnchorPane>

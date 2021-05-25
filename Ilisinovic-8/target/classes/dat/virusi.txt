@@ -1,0 +1,9 @@
+1
+gripa
+1,2
+2
+COVID-19
+1,2,3
+3
+trojan horse
+1,3

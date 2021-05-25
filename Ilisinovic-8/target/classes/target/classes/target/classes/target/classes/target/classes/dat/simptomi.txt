@@ -1,0 +1,12 @@
+1
+kasalj
+CESTO
+2
+curenje_nosa
+RIJETKO
+3
+grlobolja
+SREDNJE
+4
+štucanje
+RIJETKO
